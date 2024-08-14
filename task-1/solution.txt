@@ -1,0 +1,33 @@
+
+osc@osc:~$ cd task-1
+osc@osc:~/task-1$ mkdir Nouran
+osc@osc:~/task-1$ cd Nouran
+osc@osc:~/task-1/Nouran$ touch one.txt two.txt three.txt four.txt
+osc@osc:~/task-1/Nouran$ ls
+four.txt  one.txt  three.txt  two.txt
+osc@osc:~/task-1/Nouran$ mkdir BAD
+osc@osc:~/task-1/Nouran$ cd BAD
+osc@osc:~/task-1/Nouran/BAD$ touch bad.txt
+osc@osc:~/task-1/Nouran/BAD$ ls
+bad.txt
+osc@osc:~/task-1/Nouran/BAD$ cd ..
+osc@osc:~/task-1/Nouran$ mv one.txt /home/osc/Downloads/
+osc@osc:~/task-1/Nouran$ cd /home/osc/Downloads/
+osc@osc:~/Downloads$ ls
+one.txt
+osc@osc:~/Downloads$ cp one.txt /home/osc/Downloads/copy.txt
+osc@osc:~/Downloads$ ls
+copy.txt  one.txt
+osc@osc:~/Downloads$ cd /home/osc/task-1/Nouran/
+osc@osc:~/task-1/Nouran$ nano two.txt
+osc@osc:~/task-1/Nouran$ echo "1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC" >> three.txt
+osc@osc:~/task-1/Nouran$ mv three.txt hello.txt
+osc@osc:~/task-1/Nouran$ ls
+BAD  four.txt  hello.txt  two.txt
+osc@osc:~/task-1/Nouran$ rm four.txt
+osc@osc:~/task-1/Nouran$ ls
+BAD  hello.txt  two.txt
+osc@osc:~/task-1/Nouran$ rm -r BAD
+osc@osc:~/task-1/Nouran$ ls
+hello.txt  two.txt
+
