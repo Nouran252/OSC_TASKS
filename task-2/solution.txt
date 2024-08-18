@@ -1,0 +1,56 @@
+
+osc@osc:~$ git config --global user.name Nouran252
+osc@osc:~$ git config --global user.email nouranmahmoud252@gmail.com
+osc@osc:~$ git clone https://github.com/Nouran252/OSC_TASKS.git
+Cloning into 'OSC_TASKS'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 11 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (11/11), done.
+osc@osc:~$ cd OSC_TASKS
+osc@osc:~/OSC_TASKS$ mkdir task-2
+osc@osc:~/OSC_TASKS$ cd task-2
+osc@osc:~/OSC_TASKS/task-2$ touch greeting.txt
+osc@osc:~/OSC_TASKS/task-2$ echo "hello world" >> greeting.txt
+osc@osc:~/OSC_TASKS/task-2$ git add greeting.txt
+osc@osc:~/OSC_TASKS/task-2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   greeting.txt
+
+osc@osc:~/OSC_TASKS/task-2$ git commit -m "Added greting"
+[main 9f65a78] Added greting
+ 1 file changed, 1 insertion(+)
+ create mode 100644 task-2/greeting.txt
+osc@osc:~/OSC_TASKS/task-2$ git branch intro osc@osc:~/OSC_TASKS/task-2$ git checkout intro
+Switched to branch 'intro'
+osc@osc:~/OSC_TASKS/task-2$ nano greeting.txt
+osc@osc:~/OSC_TASKS/task-2$ git commit -m "I love git."
+On branch intro
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   greeting.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+osc@osc:~/OSC_TASKS/task-2$ git add greeting.txt
+osc@osc:~/OSC_TASKS/task-2$ git commit -m "I love Git."
+[intro 42c6e93] I love Git.
+ 1 file changed, 1 insertion(+)
+osc@osc:~/OSC_TASKS/task-2$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+osc@osc:~/OSC_TASKS/task-2$ git merge intro
+Updating 9f65a78..42c6e93
+Fast-forward
+ task-2/greeting.txt | 1 +
+ 1 file changed, 1 insertion(+)
+osc@osc:~/OSC_TASKS/task-2$ touch solution.txt
+osc@osc:~/OSC_TASKS/task-2$ nano solution.txt
+osc@osc:~/OSC_TASKS/task-2$ git push origin v1
+
