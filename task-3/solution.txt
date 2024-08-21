@@ -1,0 +1,21 @@
+1. mkdir project_files
+2. mkdir reports logs data /home/osc/project_files
+3. cd reports
+touch report1.md report2.md
+cd /home/osc/project_files/logs/
+4. touch system.log error.log file1.pdf file2.pdf
+ cd /home/osc/project_files/data/
+5.touch data.csv info.txt
+6. nano data.csv
+nano /home/osc/project_files/logs/system.log
+nano /home/osc/project_files/reports/report1.md
+7. cd /home/osc/project_files/logs/
+ tar -cf logs_backup.tar system.log error.log file1.pdf file2.pdf
+8. mv logs_backup.tar /home/osc/project_files
+9. tar -xvf /home/osc/project_files/logs_backup.tar
+10. find ~ -name "*.md"
+11. find /home/osc/project_files/  -name "*.log"
+12. find /home/osc/project_files/  -name "file1.pdf"
+13. find /home/osc/project_files/  -name "*.pdf"
+14. find /home/osc/project_files/logs/ -type f
+
