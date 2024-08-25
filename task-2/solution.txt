@@ -53,4 +53,5 @@ Fast-forward
 osc@osc:~/OSC_TASKS/task-2$ touch solution.txt
 osc@osc:~/OSC_TASKS/task-2$ nano solution.txt
 osc@osc:~/OSC_TASKS/task-2$ git push origin v1
+osc@osc:~/OSC_TASKS/task-2$ git push origin --all
 

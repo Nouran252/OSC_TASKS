@@ -1,0 +1,269 @@
+    PID CMD
+    835 avahi-daemon: chroot helper
+    772 avahi-daemon: running [osc.local]
+   2813 bash
+     20 [cpuhp/0]
+     21 [cpuhp/1]
+    773 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+     55 [ecryptfs-kthread]
+   1983 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   1861 gdm-session-worker [pam/gdm-password]
+  10647 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+     19 [idle_inject/0]
+     22 [idle_inject/1]
+     44 [irq/9-acpi]
+    302 [jbd2/dm-0-8]
+    516 [jbd2/sda2-8]
+     32 [kauditd]
+     37 [kcompactd0]
+     29 [kdevtmpfs]
+     40 [khugepaged]
+     33 [khungtaskd]
+     38 [ksmd]
+     16 [ksoftirqd/0]
+     24 [ksoftirqd/1]
+     54 [kswapd0]
+      2 [kthreadd]
+  10523 [kworker/0:0-events]
+     10 [kworker/0:0H-kblockd]
+  10158 [kworker/0:1-mm_percpu_wq]
+  10600 [kworker/0:2]
+    496 [kworker/0:2H-kblockd]
+  10534 [kworker/1:0]
+     26 [kworker/1:0H-events_highpri]
+     39 [kworker/1:1-events]
+     53 [kworker/1:1H-kblockd]
+     57 [kworker/R-acpi_]
+     46 [kworker/R-ata_s]
+     43 [kworker/R-blkcg]
+     91 [kworker/R-charg]
+    668 [kworker/R-crypt]
+     50 [kworker/R-devfr]
+     49 [kworker/R-edac-]
+    303 [kworker/R-ext4-]
+    517 [kworker/R-ext4-]
+     30 [kworker/R-inet_]
+     66 [kworker/R-ipv6_]
+     42 [kworker/R-kbloc]
+    263 [kworker/R-kdmfl]
+     41 [kworker/R-kinte]
+     74 [kworker/R-kstrp]
+     56 [kworker/R-kthro]
+     47 [kworker/R-md]
+     48 [kworker/R-md_bi]
+     65 [kworker/R-mld]
+     12 [kworker/R-mm_pe]
+      7 [kworker/R-netns]
+      4 [kworker/R-rcu_g]
+      5 [kworker/R-rcu_p]
+     60 [kworker/R-scsi_]
+     62 [kworker/R-scsi_]
+    143 [kworker/R-scsi_]
+    145 [kworker/R-scsi_]
+    147 [kworker/R-scsi_]
+    150 [kworker/R-scsi_]
+    152 [kworker/R-scsi_]
+    154 [kworker/R-scsi_]
+    162 [kworker/R-scsi_]
+    164 [kworker/R-scsi_]
+    166 [kworker/R-scsi_]
+    168 [kworker/R-scsi_]
+    170 [kworker/R-scsi_]
+    172 [kworker/R-scsi_]
+    174 [kworker/R-scsi_]
+    177 [kworker/R-scsi_]
+    179 [kworker/R-scsi_]
+    193 [kworker/R-scsi_]
+    195 [kworker/R-scsi_]
+    204 [kworker/R-scsi_]
+    207 [kworker/R-scsi_]
+    212 [kworker/R-scsi_]
+    214 [kworker/R-scsi_]
+    216 [kworker/R-scsi_]
+    218 [kworker/R-scsi_]
+    220 [kworker/R-scsi_]
+    222 [kworker/R-scsi_]
+    224 [kworker/R-scsi_]
+    226 [kworker/R-scsi_]
+    228 [kworker/R-scsi_]
+    230 [kworker/R-scsi_]
+    232 [kworker/R-scsi_]
+      6 [kworker/R-slub_]
+     45 [kworker/R-tpm_d]
+    137 [kworker/R-ttm]
+     36 [kworker/R-write]
+    411 [kworker/u4:1-ext4-rsv-conversion]
+    847 [kworker/u4:2]
+  10399 [kworker/u5:0-events_power_efficient]
+  10549 [kworker/u5:1-flush-252:0]
+  10259 [kworker/u5:2-events_power_efficient]
+  10697 [kworker/u5:3-events_unbound]
+   2868 [kworker/u6:0-events_power_efficient]
+   9844 [kworker/u6:1-events_power_efficient]
+  10540 [kworker/u6:2-events_unbound]
+  10392 [kworker/u6:3-events_power_efficient]
+     76 [kworker/u7:0]
+     77 [kworker/u8:0]
+     78 [kworker/u9:0]
+     18 [migration/0]
+     23 [migration/1]
+     34 [oom_reaper]
+      3 [pool_workqueue_release]
+  10700 ps -e --sort=cmd -o pid,cmd
+    448 [psimon]
+   1855 [psimon]
+     17 [rcu_preempt]
+     13 [rcu_tasks_kthread]
+     14 [rcu_tasks_rude_kthread]
+     15 [rcu_tasks_trace_kthread]
+      1 /sbin/init splash
+     59 [scsi_eh_0]
+     61 [scsi_eh_1]
+    165 [scsi_eh_10]
+    167 [scsi_eh_11]
+    169 [scsi_eh_12]
+    171 [scsi_eh_13]
+    173 [scsi_eh_14]
+    175 [scsi_eh_15]
+    178 [scsi_eh_16]
+    180 [scsi_eh_17]
+    194 [scsi_eh_18]
+    203 [scsi_eh_19]
+    142 [scsi_eh_2]
+    205 [scsi_eh_20]
+    208 [scsi_eh_21]
+    213 [scsi_eh_22]
+    215 [scsi_eh_23]
+    217 [scsi_eh_24]
+    219 [scsi_eh_25]
+    221 [scsi_eh_26]
+    223 [scsi_eh_27]
+    225 [scsi_eh_28]
+    227 [scsi_eh_29]
+    144 [scsi_eh_3]
+    229 [scsi_eh_30]
+    231 [scsi_eh_31]
+    146 [scsi_eh_4]
+    149 [scsi_eh_5]
+    151 [scsi_eh_6]
+    153 [scsi_eh_7]
+    161 [scsi_eh_8]
+    163 [scsi_eh_9]
+   1879 (sd-pam)
+   2869 /snap/firefox/4173/usr/lib/firefox/firefox
+   3030 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 28806 -prefMapSize 241558 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {67274240-e568-4713-a086-58b88a23e05a} 2869 true tab
+   3229 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 34239 -prefMapSize 241558 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {3a3dd169-93f9-470b-be7e-b1ac3106b7cc} 2869 true tab
+   3559 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 30919 -prefMapSize 241558 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {3e5ac3eb-422c-447a-82b4-e8b9ddb26030} 2869 true tab
+   3564 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 30919 -prefMapSize 241558 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {afb80d27-7649-497d-abd3-8b0a7cd31d5a} 2869 true tab
+   3566 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 30919 -prefMapSize 241558 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {871e3c20-2cc8-408d-8f3d-26bcccdd1ffb} 2869 true tab
+   3681 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 31057 -prefMapSize 241558 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {76267d78-e878-426a-a4fe-fd0acd5f2c66} 2869 true tab
+  10183 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 31166 -prefMapSize 241558 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {98bd5525-e6fd-46c1-bb5f-a238b5b284e9} 2869 true tab
+   2995 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -parentBuildID 20240419214016 -prefsLen 28665 -prefMapSize 241558 -appDir /snap/firefox/4173/usr/lib/firefox/browser {34beb80f-f049-4b1e-a7d1-347e792f828f} 2869 true socket
+   9849 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -parentBuildID 20240419214016 -prefsLen 34540 -prefMapSize 241558 -appDir /snap/firefox/4173/usr/lib/firefox/browser {906c9e84-31dd-4284-9030-5197374ddc50} 2869 true rdd
+   3558 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -parentBuildID 20240419214016 -sandboxingKind 0 -prefsLen 34293 -prefMapSize 241558 -appDir /snap/firefox/4173/usr/lib/firefox/browser {ebc44aaa-2ea8-468f-a75d-40f5c4af8e1f} 2869 true utility
+   2661 /snap/snapd-desktop-integration/157/usr/bin/snapd-desktop-integration
+   2729 /snap/snapd-desktop-integration/157/usr/bin/snapd-desktop-integration
+   2134 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+   1910 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   2621 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   2229 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   1917 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+   2118 /usr/bin/gnome-shell
+  10330 /usr/bin/gnome-text-editor /home/osc/OSC_TASKS/task-5/solution.txt
+   2235 /usr/bin/ibus-daemon --panel disable
+   9939 /usr/bin/nautilus --gapplication-service
+   1891 /usr/bin/pipewire
+   1892 /usr/bin/pipewire -c filter-chain.conf
+   1907 /usr/bin/pipewire-pulse
+   1029 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+   3071 /usr/bin/snap userd
+   3628 /usr/bin/update-notifier
+   1904 /usr/bin/wireplumber
+  10005 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.VIC3S2 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+    797 /usr/libexec/accounts-daemon
+   2185 /usr/libexec/at-spi2-registryd --use-gnome-session
+   2122 /usr/libexec/at-spi-bus-launcher --launch-immediately
+   1197 /usr/libexec/colord
+   2548 /usr/libexec/dconf-service
+   2479 /usr/libexec/evolution-addressbook-factory
+   2447 /usr/libexec/evolution-calendar-factory
+   2274 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   2219 /usr/libexec/evolution-source-registry
+  10563 /usr/libexec/fwupd/fwupd
+   2051 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+   1953 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+    776 /usr/libexec/gnome-remote-desktop-daemon --system
+   1971 /usr/libexec/gnome-session-binary --session=ubuntu
+   2082 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   2052 /usr/libexec/gnome-session-ctl --monitor
+   2198 /usr/libexec/gnome-shell-calendar-server
+   2806 /usr/libexec/gnome-terminal-server
+   2430 /usr/libexec/goa-daemon
+   2454 /usr/libexec/goa-identity-service
+   2238 /usr/libexec/gsd-a11y-settings
+   2243 /usr/libexec/gsd-color
+   2244 /usr/libexec/gsd-datetime
+   2269 /usr/libexec/gsd-disk-utility-notify
+   2245 /usr/libexec/gsd-housekeeping
+   2246 /usr/libexec/gsd-keyboard
+   2248 /usr/libexec/gsd-media-keys
+   2250 /usr/libexec/gsd-power
+   2588 /usr/libexec/gsd-printer
+   2252 /usr/libexec/gsd-print-notifications
+   2253 /usr/libexec/gsd-rfkill
+   2255 /usr/libexec/gsd-screensaver-proxy
+   2256 /usr/libexec/gsd-sharing
+   2257 /usr/libexec/gsd-smartcard
+   2258 /usr/libexec/gsd-sound
+   2260 /usr/libexec/gsd-wacom
+  10010 /usr/libexec/gsd-xsettings
+   2498 /usr/libexec/gvfs-afc-volume-monitor
+   2066 /usr/libexec/gvfsd
+  10099 /usr/libexec/gvfsd-dnssd --spawner :1.19 /org/gtk/gvfs/exec_spaw/4
+   2074 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   2754 /usr/libexec/gvfsd-metadata
+  10069 /usr/libexec/gvfsd-network --spawner :1.19 /org/gtk/gvfs/exec_spaw/2
+  10057 /usr/libexec/gvfsd-recent --spawner :1.19 /org/gtk/gvfs/exec_spaw/1
+   2567 /usr/libexec/gvfsd-trash --spawner :1.19 /org/gtk/gvfs/exec_spaw/0
+   2480 /usr/libexec/gvfs-goa-volume-monitor
+   2504 /usr/libexec/gvfs-gphoto2-volume-monitor
+   2488 /usr/libexec/gvfs-mtp-volume-monitor
+   2465 /usr/libexec/gvfs-udisks2-volume-monitor
+   2517 /usr/libexec/ibus-engine-simple
+   2420 /usr/libexec/ibus-extension-gtk3
+   2419 /usr/libexec/ibus-memconf
+   2434 /usr/libexec/ibus-portal
+  10031 /usr/libexec/ibus-x11
+  10036 /usr/libexec/mutter-x11-frames
+    788 /usr/libexec/power-profiles-daemon
+   1106 /usr/libexec/rtkit-daemon
+    801 /usr/libexec/switcheroo-control
+   2600 /usr/libexec/tracker-miner-fs-3
+    810 /usr/libexec/udisks2/udisksd
+   1238 /usr/libexec/upowerd
+   2706 /usr/libexec/xdg-desktop-portal
+   2731 /usr/libexec/xdg-desktop-portal-gnome
+   2764 /usr/libexec/xdg-desktop-portal-gtk
+   1923 /usr/libexec/xdg-document-portal
+   1945 /usr/libexec/xdg-permission-store
+    781 /usr/lib/polkit-1/polkitd --no-debug
+    796 /usr/lib/snapd/snapd
+    355 /usr/lib/systemd/systemd-journald
+    805 /usr/lib/systemd/systemd-logind
+    590 /usr/lib/systemd/systemd-oomd
+    595 /usr/lib/systemd/systemd-resolved
+    614 /usr/lib/systemd/systemd-timesyncd
+    429 /usr/lib/systemd/systemd-udevd
+   1874 /usr/lib/systemd/systemd --user
+    770 /usr/sbin/anacron -d -q -s
+    800 /usr/sbin/cron -f -P
+   1061 /usr/sbin/cups-browsed
+   1026 /usr/sbin/cupsd -l
+   1043 /usr/sbin/gdm3
+   1069 /usr/sbin/kerneloops
+   1064 /usr/sbin/kerneloops --test
+    899 /usr/sbin/ModemManager
+    836 /usr/sbin/NetworkManager --no-daemon
+    848 /usr/sbin/rsyslogd -n -iNONE
+    840 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+     51 [watchdogd]
